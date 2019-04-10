@@ -1,0 +1,2 @@
+<import src="./mygrab.vue.wxml" />
+    <template is="599600c6" data="{{ ...$root['0'], $root }}"/>

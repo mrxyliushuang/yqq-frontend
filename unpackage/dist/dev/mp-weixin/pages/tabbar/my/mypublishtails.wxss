@@ -1,0 +1,38 @@
+
+.mybg {
+	background-color: #c5d7f1;
+	height: 90px;
+	width: 100%;
+}
+.mymsg {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 40px;
+}
+.mytime {
+	text-align: right;
+	font-size: 12px;
+	padding-right: 10px;
+}
+.classcontent {
+	padding: 0 5px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	letter-spacing: 2px;
+	text-indent:25px;
+	font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+.ref {
+	width: 100%;
+}
+.refpopup {
+	height: 150px;
+}
+.grabs {
+	text-align: left;
+}
+.number {
+	text-align: left;
+}
+

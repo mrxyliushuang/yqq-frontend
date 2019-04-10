@@ -1,0 +1,127 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				"navigationBarTitleText": "翼起抢"
+			}
+		},
+		{
+			"path": "pages/login/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/tabbar/home/homeDetail",
+			"style": {
+				"navigationBarTitleText": "翼起抢"
+			}
+		},
+		{
+			"path": "pages/tabbar/win/win",
+			"style": {
+				"navigationBarTitleText": "抢单头条"
+			}
+		},
+		{
+			"path": "pages/tabbar/issue/issue",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+
+		{
+			"path": "pages/tabbar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/mypublish",
+			"style": {
+				"navigationBarTitleText": "我的发布"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/mypublishtails",
+			"style": {
+				"navigationBarTitleText": "发布详情"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/mygrabtails",
+			"style": {
+				"navigationBarTitleText": "抢单详情"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/mygrab",
+			"style": {
+				"navigationBarTitleText": "我的抢单"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/about",
+			"style": {
+				"navigationBarTitleText": "关于"
+			}
+		},
+		{
+			"path": "pages/enter",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+
+		"selectedColor": "red",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/tabbar/shouye.png",
+				"text": "首页",
+
+				"selectedIconPath": "static/tabbar/shouyehei.png"
+			},
+			{
+				"pagePath": "pages/tabbar/win/win",
+				"iconPath": "static/tabbar/qianhei.png",
+				"text": "抢单",
+				"selectedIconPath": "static/tabbar/qian.png"
+			},
+			// 			{
+			// 				"pagePath": "pages/tabbar/issue/issue",
+			// 				"iconPath": "static/tabbar/fabu.png",
+			// 				"text": "发布",
+			// 				"selectedIconPath": "static/tabbar/fabuhei.png"
+			// 			},
+			{
+				"pagePath": "pages/tabbar/my/my",
+				"iconPath": "static/tabbar/geren.png",
+				"text": "我的",
+				"selectedIconPath": "static/tabbar/gerenhei.png"
+			}
+		]
+	}
+}
